@@ -3,7 +3,7 @@ global _start
 section .text
 
 _start:
-    mov ax, 1
+    mov ax, 0x01
     mov rdi, 1
     mov rsi, msg
     mov rdx, msglen
